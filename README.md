@@ -1,1 +1,2 @@
-# havard-cs50x-week8-js-html-css
+# Introduction to javascript, html and CSS
+## what did i learn
