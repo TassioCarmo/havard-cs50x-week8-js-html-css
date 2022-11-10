@@ -12,7 +12,7 @@ A router might have multiple options for what direction to send some data, and t
 there's algorithms that figure out how you decide to send a packet up, down, left, or right, so to speak. But they do so by taking an input
 
 ## TCP/IP
-the message would have the source address and the destination address
+the message would have the source address and the destination address and the type of server
 
 are two protocols for sending data between two computers. In the real world, we might write an address on an envelope in order to send a letter to someone, along with our own address for a letter in return.
  
