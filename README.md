@@ -92,4 +92,8 @@ HTTP status codes include:
 
 HTML, Hypertext Markup Language, is not a programming language, but rather used to format web pages and tell the browser how to display them.
 
-server with the <code>http-server</code> command, and clicking “Open in Browser” in the notification that appears. 
+server with the <code>http-server</code> command, and clicking “Open in Browser” in the notification that appears.
+
+- The first line, <!DOCTYPE html>, is a declaration that the page follows the HTML standard.
+- Next is a tag, a word in brackets like <html> and </html>. The first is a start or open tag, and the second is a close tag, which looks almost the same but with a / in front of the tag’s name. In this case, the tags indicate the start and end of the HTML page. The start tag here has an attribute as well, lang="en" which specifies that the language of the page will be in English, to help the browser translate the page if needed. Notice that attributes are key-value pairs.
+- Nested within the <html> tag are two more tags, <head> and <body>, which are both like children nodes in a tree. And within <head> is the <title> tag, the contents of which we see in a tab or window’s title in a browser. Within <body> is the contents of the page itself, a text node, which we’ll see in the main view of a browser as well.
