@@ -27,3 +27,14 @@ transmission control protocol, is a protocol for sending and receiving data. TCP
 
 - TCP also allows for a large amount of data, like an image, to be sent in smaller chunks. Each of them might be labeled with a sequence number, as with “part 1 of 4” or “part 2 of 4”. And if one of the parts is lost, the recipient can ask for the missing part again.
 - UDP is another protocol for sending data that does not guarantee delivery like TCP, which might be useful for streaming real-time videos or calls, since we don’t want to wait for all the packets to be redelivered before we get new ones.
+
+## DNS Domaon name system
+
+cs50.harvard.edu to IP addresses. DNS is generally provided by a server nearby, with a big table in its memory, of domain names and IP addresses.
+
+Translate domain names to IP addresses
+
+## HTTP, or Hypertext Transfer Protocol, 
+standardizes how web browsers and web servers communicate within TCP/IP packets.
+
+   HTTPS is the secure version of HTTP, ensuring that the contents of packets between the browser and server are encrypted.
