@@ -92,6 +92,8 @@ HTTP status codes include:
 
 HTML, Hypertext Markup Language, is not a programming language, but rather used to format web pages and tell the browser how to display them.
 
+it's just tags and attributes that you don't need to remember 100% of the time
+
 server with the <code>http-server</code> command, and clicking “Open in Browser” in the notification that appears.
 
 - The first line, <!DOCTYPE html>, is a declaration that the page follows the HTML standard.
@@ -103,4 +105,6 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
  Pure text in HTMl is called text node
  
  ![image](https://user-images.githubusercontent.com/31789624/201429134-fdd1ee23-3dea-4340-be50-58b5e4665cf0.png)
+ 
+ 
 
