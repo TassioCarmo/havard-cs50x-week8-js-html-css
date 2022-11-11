@@ -99,3 +99,8 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
 - Nested within the <html> tag are two more tags, <head> and <body>, which are both like children nodes in a tree. And within <head> is the <title> tag, the contents of which we see in a tab or window’s title in a browser. Within <body> is the contents of the page itself, a text node, which we’ll see in the main view of a browser as well.
 
  Element: start tag and end tag and everything in between
+ 
+ Pure text in HTMl is called text node
+ 
+ ![image](https://user-images.githubusercontent.com/31789624/201429134-fdd1ee23-3dea-4340-be50-58b5e4665cf0.png)
+
