@@ -50,3 +50,44 @@ standardizes how web browsers and web servers communicate within TCP/IP packets.
  - example.com is the domain name. .com is a top-level domain name, and others like .edu or .io indicate what type of website might be hosted there. Today, there are hundreds of top-level domain names, some with restrictions on how they can be used.
  - www is the hostname, or subdomain, that refers to one or more specific servers in the domain name. A domain name might include web servers for www, or email servers for mail, so each subdomain can point to them separately.
  - Together, www.example.com is a fully qualified domain name, or one that has a specific set of addresses.
+
+
+GET request will start with:
+
+GET / HTTP/1.1
+Host: www.example.com
+
+- The GET indicates that the request is for some file, and / indicates the default file.
+- There are different versions of the HTTP protocol, so HTTP/1.1 indicates that the browser is using version 1.1.
+- Host: www.example.com indicates that the request is for www.example.com, since the same web server might be hosting multiple websites and domains.
+
+response for a successful request will start with:
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+
+- The web server will respond with the version of HTTP, followed by a status code, which is 200 OK here, indicating that the request was valid.
+- Then, the web server indicates the type of content in its response, which might be text, image, or other format.
+- Finally, the rest of the packet or packets will include the content.
+
+
+HTTP status codes include:
+
+    200 OK
+    301 Moved Permanently
+    302 Found
+    304 Not Modified
+    307 Temporary Redirect
+    401 Unauthorized
+    403 Forbidden
+    404 Not Found
+    418 I'm a Teapot
+        An April Fool’s joke years ago
+    500 Internal Server Error
+        Buggy code on a server might result in this status code, like segfaults we might have seen in C.
+    503 Service Unavailable
+
+## HTML
+
+HTML, Hypertext Markup Language, is not a programming language, but rather used to format web pages and tell the browser how to display them.
