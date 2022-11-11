@@ -91,3 +91,5 @@ HTTP status codes include:
 ## HTML
 
 HTML, Hypertext Markup Language, is not a programming language, but rather used to format web pages and tell the browser how to display them.
+
+server with the <code>http-server</code> command, and clicking “Open in Browser” in the notification that appears. 
