@@ -239,3 +239,94 @@ when you fill out a form on the web and you hit Enter, typically the URL suddenl
  ### link CSS file
            
            <code><link href="home.css" rel="stylesheet"></code>
+
+  
+    attribute selectors will affect tags with those attributes, and we can use a[href*="harvard.edu"] to be less specific in our selection, affecting tags with harvard.edu anywhere in its href.
+
+## Frameworld
+A set of CSS conventions and shared styles is known as a framework, with classes and components we can quickly use.
+One popular framework is Bootstrap, with components like alerts that we can use with HTML like:
+```
+<div class="alert alert-warning">
+    ...
+</div>
+```
+    The framework provides the CSS that sets the style for those classes.
+
+With the help of the documentation on Bootstrap’s website, we’ll include a <link> to its CSS for our page with a table:
+```
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>table</title>
+    </head>
+    <body>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carter</td>
+                    <td>+1-617-495-1000</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>+1-949-468-2750</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+```
+    By adding the table class, per the Boostrap documentation, we see that our table is indeed stylized to be easier to read.
+
+We’ll update our search page, too, with styles from Bootstrap:
+```
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>search</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <ul class="m-3 nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://about.google/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://store.google.com/">Store</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link text-dark" href="https://www.google.com/gmail/">Gmail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://www.google.com/imghp">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="https://accounts.google.com/ServiceLogin" role="button">Sign in</a>
+                </li>
+            </ul>
+
+            <div class="text-center">
+              <img alt="Happy Cat" class="img-fluid w-25" src="cat.gif">
+              <form action="https://www.google.com/search" class="mt-4" method="get">
+                  <input autocomplete="off" autofocus class="form-control form-control-lg mb-4 mx-auto w-50" name="q" placeholder="Query" type="search">
+                  <button class="btn btn-light" type="submit">Google Search</button>
+                  <button class="btn btn-light" name="btnI" type="submit">I'm Feeling Lucky</button>
+              </form>
+ 
+          </div>
+        </div>
+          
+    </body>
+</html>
+```
