@@ -106,7 +106,7 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
  
  ![image](https://user-images.githubusercontent.com/31789624/201429134-fdd1ee23-3dea-4340-be50-58b5e4665cf0.png
  
- List
+### List
  ```
  <!DOCTYPE html>
 
@@ -123,7 +123,7 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
     </body>
 </html>
 ```
- Table
+### Table
  ```
          <table>
             <thead>
@@ -145,23 +145,23 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
         </table>
 ```
  
- Image
+### Image
  ```
       <img alt="Harvard University" src="harvard.jpg">
  ```
- Video
+### Video
  ```
  <video autoplay loop muted width="1280">
             <source src="halloween.mp4" type="video/mp4">
  </video>
  ```
- embed another page in ours with an inline frame, or iframe: 
+### embed another page in ours with an inline frame, or iframe: 
  
  ```
          <iframe allowfullscreen src="https://www.youtube.com/embed/xvFZjo5PgG0"></iframe>
  ```
  
-responsive, or automatically adapted for different screen sizes:
+### responsive, or automatically adapted for different screen sizes:
 
 ```
      <meta name="viewport" content="initial-scale=1, width=device-width">
