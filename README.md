@@ -336,8 +336,11 @@ We’ll update our search page, too, with styles from Bootstrap:
 ## Javascript
  You can change in memory very interactive and dinamic
  
-           The syntax of JavaScript is similar to that of C and Python for basic constructs:
-setcounterto
+    
+            The syntax of JavaScript is similar to that of C and Python for basic constructs:
+
+```          
+ setcounterto
 0
 
 let counter = 0;
@@ -399,6 +402,4 @@ for (let i = 0; i < 3; i++)
 {
 
 }
-
-
-
+```
