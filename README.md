@@ -195,3 +195,39 @@ when you fill out a form on the web and you hit Enter, typically the URL suddenl
 </html>
 
 ```
+ 
+## CSS
+ Cascading Style Sheets, another language that tells our browser how to display tags on a page
+ 
+ <code><div></code> tags, or divisions, to indicate they are separate areas on our page.
+ 
+## HTML entity
+  
+  <code>Copyright &#169; John Harvard</code>
+  
+## type selector 
+
+### class selector: 
+  
+```
+  html
+          <header class="centered large">
+   ----------
+    Css
+             .centered
+            {
+                text-align: center;
+            }
+ ```
+### ID selector
+ 
+```
+ <p id="first">
+  
+  #first{
+  
+```
+           
+ ### link CSS file
+           
+           <code><link href="home.css" rel="stylesheet"></code>
