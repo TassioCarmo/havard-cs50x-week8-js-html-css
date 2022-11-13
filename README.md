@@ -331,3 +331,74 @@ We’ll update our search page, too, with styles from Bootstrap:
 </html>
 ```
 # best practice. Stand on the shoulders of others as much as you can, using libraries. And then if you really don't like what the library is doing, then use your own skills and understanding of HTML and CSS to refine things a bit further.
+           
+           
+## Javascript
+ You can change in memory very interactive and dinamic
+ 
+           The syntax of JavaScript is similar to that of C and Python for basic constructs:
+setcounterto
+0
+
+let counter = 0;
+
+changecounterby
+1
+
+counter = counter + 1;
+counter += 1;
+counter++;
+
+ifx<
+ythen
+
+if (x < y)
+{
+
+}
+
+ifx<
+ythenelse
+
+if (x < y)
+{
+
+}
+else
+{
+
+}
+
+ifx<ythenelseifx>
+ythenelse
+
+if (x < y)
+{
+
+}
+else if (x > y)
+{
+
+}
+else
+{
+
+}
+
+forever
+
+while (true)
+{
+
+}
+
+repeat
+3
+
+for (let i = 0; i < 3; i++)
+{
+
+}
+
+
+
