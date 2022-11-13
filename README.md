@@ -330,3 +330,4 @@ We’ll update our search page, too, with styles from Bootstrap:
     </body>
 </html>
 ```
+# best practice. Stand on the shoulders of others as much as you can, using libraries. And then if you really don't like what the library is doing, then use your own skills and understanding of HTML and CSS to refine things a bit further.
