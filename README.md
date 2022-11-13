@@ -167,3 +167,9 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
      <meta name="viewport" content="initial-scale=1, width=device-width">
 ```
 
+ URL
+ 
+ URL can change when you do a search for example to include the user's input. This is how humans provide input to servers. They don't manually create the URLs, like I sort of just did. 
+
+when you fill out a form on the web and you hit Enter, typically the URL suddenly changes to include whatever you typed in, in the URL, assuming the form is using the verb GET. That's not ideal. If you're typing in a username, a password, a credit card information, because you don't want the next person to sit down at your laptop to see literally everything you typed in, saved in your history. So there's another verb, POST, that can hide all of that. 
+
