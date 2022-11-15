@@ -4,7 +4,7 @@
 ## internet 
 Is the network of networks of computers, or servers, communicating with one another by sending and receiving data. 
 
-## router
+## Router
 Are specialized computers, with CPUs and memory, that routes, or relays, data from one point to another. 
 and as the name implies, just routes data left to right, top to bottom, from one point to another
 A router might have multiple options for what direction to send some data, and there are algorithms that try to figure out that direction.
@@ -34,6 +34,13 @@ In order for your machine to uniquely identify itself on the Internet, it needs 
 - Instead of representing these 32-bit addresses(roughly 4 billion addresses) as hexadecimal, we represent them as four clusters of 8-bits using decimal notation.
 - Ex:140.247.223.81
 - In recent years, we’ve been slowly phasing out this old scheme (IPv4) and replacing it with a newer scheme (IPv6) that assigns computers 128-bit addresses, instead of 32-bit addresses.
+
+![image](https://user-images.githubusercontent.com/31789624/202000671-192cddd0-562e-4713-88c0-7badf1a17837.png)
+
+
+the networks are not directly connected to each other at all, and rely on routers to distribute communications.
+-On a small scale, this configuration may actually be more inefficient than just having direct connections.
+-On a large scale, this configuration can dramatically reduce the costs of network infrastructure.
 
 ### DHCP Dynamic Host Configuration Protocol
 
