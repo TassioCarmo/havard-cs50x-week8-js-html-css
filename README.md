@@ -11,6 +11,12 @@ A router might have multiple options for what direction to send some data, and t
 
 there's algorithms that figure out how you decide to send a packet up, down, left, or right, so to speak. But they do so by taking an input
 
+instead assign an IP address to a router. That router or access point just in your home, for example. 
+
+## #Access Points
+- One of the ways we’ve dealt with the IPv4 addressing problem is to start assigning multiple people to the same IP address.Today the router has the public address 
+- while every device using it has the privates ,with the router's job as to sort of act as a traffic cop, allowing everybody who's connected to that router to use the same IP address to get out. 
+
 ## TCP/IP
 the message would have the source address and the destination address and the type of server, garantees the package will get to the destination
 
