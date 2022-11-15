@@ -18,9 +18,22 @@ instead assign an IP address to a router. That router or access point just in yo
 - while every device using it has the privates ,with the router's job as to sort of act as a traffic cop, allowing everybody who's connected to that router to use the same IP address to get out. 
 
 ## TCP/IP
-the message would have the source address and the destination address and the type of server, garantees the package will get to the destination
 
-are two protocols for sending data between two computers. In the real world, we might write an address on an envelope in order to send a letter to someone, along with our own address for a letter in return.
+- Resposible for getting it to the correct program, or the correct service on a machine. And it does something else that IP doesn't do, which is guarantee delivery. 
+- in addition to specifying the **port** number, it also indicates how many packets, the internet protocol, IP, has split the data into. And it orders those packets so they can be reconstructed on the receiving machine, even if they received-- in a different order than they were sent. Which can happen because IP is a connectionless protocol, and so different packets can take different paths through the system. 
+
+Are two protocols for sending data between two computers. In the real world, we might write an address on an envelope in order to send a letter to someone, along with our own address for a letter in return.
+
+Commonly used that they have been standardized across all computers.
+- FTP (file transfer) uses port 21.
+- SMTP (e-mail) uses port 25.
+- DNS uses port 53.
+- HTTP (web browsing) uses port 80.
+- HTTPS (secure web browsing) uses post 443.
+
+IP gets those data chunks that have been wrapped with TCP, and wraps more information about where the packet is supposed to go. We might call this the IP layers surrounding the packet. 
+
+We have the data in the middle, and then TCP on top of, telling it where the data inside of TCP is supposed to go, to what port or what service on a machine. Around that is the IP layer. What IP address, what machine, is actually getting this. 
  
 ### IP
 
@@ -71,8 +84,8 @@ info.host2.net    0.0.0.1
 
 - There are all these local small scale DNSs that exist out there. And there are services that aggregate them together. But they depend on those smaller DNS systems updating their information, so that they have the most accurate information. 
 
-## HTTP, or Hypertext Transfer Protocol, 
-standardizes how web browsers and web servers communicate within TCP/IP packets.
+## HTTP, or Hypertext Transfer Protocol
+HTTP specifies/standardizes how exactly how one must make a request for a web page and exactly how a server, a machine that hosts web pages, delivers that information back to clients. 
 
    HTTPS is the secure version of HTTP, ensuring that the contents of packets between the browser and server are encrypted.
    
