@@ -52,6 +52,10 @@ Translate IP to domain names
 Host             IPv4 Address
 info.host1.net    0.0.0.0
 info.host2.net    0.0.0.1
+```
+- DNS is really the local yellow pages. And large DNS servers like google.coms, they are actually just more like libraries that have a copy of all of the local yellow pages or all of the local DNS records. So there's really no one repository of the full DNS of the internet, just like there's no one yellow pages of the world. 
+
+- There are all these local small scale DNSs that exist out there. And there are services that aggregate them together. But they depend on those smaller DNS systems updating their information, so that they have the most accurate information. 
 
 ## HTTP, or Hypertext Transfer Protocol, 
 standardizes how web browsers and web servers communicate within TCP/IP packets.
