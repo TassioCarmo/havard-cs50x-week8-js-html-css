@@ -305,7 +305,28 @@ when you fill out a form on the web and you hit Enter, typically the URL suddenl
 ## CSS
  Cascading Style Sheets, another language that tells our browser how to display tags on a page
  
- <code><div></code> tags, or divisions, to indicate they are separate areas on our page.
+ <code>< div></code> tags, or divisions, to indicate they are separate areas on our page.
+  
+  
+common used
+  
+ <code> border: style color width</code>
+- Applies a border of the specified color, width, and style (e.g., dotted, dashed, solid, ridge…).
+
+ <code>background-color: [keyword | #<6-digit hex>]</code>
+- Sets the background color. Some colors are pre-defined in CSS.
+
+  <code>color: [keyword | #<6-digit hex>]</code>
+- Sets the foreground color (usually text).
+   
+ <code>font-size: [absolute size | relative size] </code>
+- Can use keywords (xx-small, medium…), fixed points (10pt, 12pt…), percentage (80%, 120%), or base off the most recent font size (smaller, larger).
+ 
+   <code>font-family: [font name | generic name] </code>
+- Certain “web safe” fonts are pre-defined in CSS.
+ 
+   <code>text-align: [left | right | center | justify] </code>
+- For displaying text.
  
 ## HTML entity
   
