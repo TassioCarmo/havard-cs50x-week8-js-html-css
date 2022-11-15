@@ -2,7 +2,7 @@
 ## what did i learn
 
 ## internet 
-is the network of networks of computers, or servers, communicating with one another by sending and receiving data. 
+Is the network of networks of computers, or servers, communicating with one another by sending and receiving data. 
 
 ## router
 Are specialized computers, with CPUs and memory, that routes, or relays, data from one point to another. 
@@ -17,9 +17,21 @@ the message would have the source address and the destination address and the ty
 are two protocols for sending data between two computers. In the real world, we might write an address on an envelope in order to send a letter to someone, along with our own address for a letter in return.
  
 ### IP
-stands for internet protocol, a protocol that includes a standard way for computers to address each other. IP addresses are unique addresses for computers connected to the internet, such that a packet sent from one computer to another will be passed along routers until it reaches its destination.
 
-An IP address might have the format #.#.#.#, where each number can have a value from 0 to 255. Each number will be the size of one byte, so the entire address will be 4 bytes, or 32 bits. This means that this version of IP, version 4, can only support a maximum of 4 billion addresses. Another version of IP, version 6, uses 128 bits to support many more possible addresses.
+Stands for internet protocol, a protocol that includes a standard way for computers to address each other. IP addresses are unique addresses for computers connected to the internet, such that a packet sent from one computer to another will be passed along routers until it reaches its destination.
+
+
+In order for your machine to uniquely identify itself on the Internet, it needs an address.
+- This way, it can send information out and also receive information back to the correct location.
+- The addressing scheme used by computers is known as IP addressing.
+- As originally developed, the IP addressing scheme would effectively allocate a unique 32-bit address to each device hoping to connect to the internet.
+- Instead of representing these 32-bit addresses(roughly 4 billion addresses) as hexadecimal, we represent them as four clusters of 8-bits using decimal notation.
+- Ex:140.247.223.81
+- In recent years, we’ve been slowly phasing out this old scheme (IPv4) and replacing it with a newer scheme (IPv6) that assigns computers 128-bit addresses, instead of 32-bit addresses.
+
+### DHCP Dynamic Host Configuration Protocol
+
+Assigns you an ip address
 
 ### TCP
 
@@ -35,7 +47,11 @@ Two commands supported by HTTP include GET and POST. GET allows a browser to ask
 
 cs50.harvard.edu to IP addresses. DNS is generally provided by a server nearby, with a big table in its memory, of domain names and IP addresses.
 
-Translate domain names to IP addresses
+Translate IP to domain names
+```
+Host             IPv4 Address
+info.host1.net    0.0.0.0
+info.host2.net    0.0.0.1
 
 ## HTTP, or Hypertext Transfer Protocol, 
 standardizes how web browsers and web servers communicate within TCP/IP packets.
