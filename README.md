@@ -139,6 +139,8 @@ HTTP status codes include:
 
 HTML, Hypertext Markup Language, is not a programming language, but rather used to format web pages and tell the browser how to display them.
 
+
+
 it's just tags and attributes that you don't need to remember 100% of the time
 
 server with the <code>http-server</code> command, and clicking “Open in Browser” in the notification that appears.
@@ -152,6 +154,63 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
  Pure text in HTMl is called text node
  
  ![image](https://user-images.githubusercontent.com/31789624/201429134-fdd1ee23-3dea-4340-be50-58b5e4665cf0.png
+ 
+- white space is data. And so when we're sending data from sender to receiver, from server to client, data costs money. And so getting rid of whitespace is actually a good idea if you're somebody who serves up a lot of web content. It's a bad idea if you're somebody who's learning this stuff and you want to have it nicely organized.
+ 
+ <code>< b>, < /b></code>
+- Text between these tags will be rendered in boldfaceby the browser.
+  
+ <code>< i>, < /i></code>
+- Text between these tags will be rendered in italicsby the browser.
+
+ <code>< u>, < /u></code>
+- Text between these tags will be rendered underlinedby the browser.
+
+ <code>< p>, < /p></code>
+- Text between these tags will be rendered as a paragraph by the browser, with space above and below.
+
+ <code>< hX>, < /hX></code>
+ X = 1, 2, 3, 4, 5, or 6
+- Text between these tags will be rendered as an X-level section header.
+ 
+ <code>< ul>, < /ul></code>
+- Demarcate the beginning and end of an unordered (bulleted) list.
+
+ <code>< ol>, < /ol></code>
+- Demarcate the beginning and end of an ordered (numbered) list.
+
+ <code>< li>, < /li></code>
+- Demarcate list items with an ordered or unordered list.
+
+ <code>< table>, < /table></code>
+- Demarcate the beginning and end of a table definition.
+
+ <code>< tr>, < /tr></code>
+- Demarcate the beginning and end of a row within a table.
+
+ <code>< td>, < /td></code>
+- Demarcate the beginning and end of a column within a row within a table.
+
+ <code>< form>, < /form></code>
+- Demarcate the beginning and end of an HTML form.
+
+ <code>< div>, < /div></code>
+- Demarcate the beginning and end of an arbitrary HTML page division.
+
+ <code>< input name=X type=Y /></code>
+- Define a field within an HTML form. X is a unique identifier for that field, Y is what type of data it accepts.
+
+ <code> < a href=X>, < /a></code>
+- Creates a hyperlink to web page X, with the text between the tags rendered and functional as the link text.
+
+ <code>< imgsrc=X ... /></code>
+- Another self-closing tag for displaying an image located at X, with possible additionalattributes (such as specifying width and height).
+
+ <code> < !DOCTYPE html></code>
+- Specific to HTML5, lets the browser know that’s the standard you’re using.
+
+ <code>< !--, -- ></code>
+- Demarcate the beginning and end of an HTML comment.
  
 ### List
  ```
