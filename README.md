@@ -41,6 +41,7 @@ In order for your machine to uniquely identify itself on the Internet, it needs 
 the networks are not directly connected to each other at all, and rely on routers to distribute communications.
 - On a small scale, this configuration may actually be more inefficient than just having direct connections.
 - On a large scale, this configuration can dramatically reduce the costs of network infrastructure.
+- IP is responsible for getting information from point A to point B and also breaking the information into small pieces so that the network isn't overly taxed. 
 
 ### DHCP Dynamic Host Configuration Protocol
 
