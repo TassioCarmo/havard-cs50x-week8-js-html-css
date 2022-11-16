@@ -6,7 +6,7 @@ Is the network of networks of computers, or servers, communicating with one anot
 
 ## Router
 Are specialized computers, with CPUs and memory, that routes, or relays, data from one point to another. 
-and as the name implies, just routes data left to right, top to bottom, from one point to another
+and as the name implies, just routes data left to right, top to bottom, from one point to another.
 A router might have multiple options for what direction to send some data, and there are algorithms that try to figure out that direction.
 
 there's algorithms that figure out how you decide to send a packet up, down, left, or right, so to speak. But they do so by taking an input
