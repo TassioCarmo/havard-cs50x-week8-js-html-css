@@ -1,5 +1,14 @@
 # Introduction to javascript, html and CSS
+
 ## what did i learn
+
+
+## How to ask questions
+
+Always Provide Your Code and the Surrounding Context
+Ask About the Problem at Hand, Not the Solution Itself
+Don’t Take Asking for More Context to Heart
+
 
 ## internet 
 Is the network of networks of computers, or servers, communicating with one another by sending and receiving data. 
