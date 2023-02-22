@@ -30,6 +30,7 @@ instead assign an IP address to a router. That router or access point just in yo
 
 - Resposible for getting it to the correct program, or the correct service on a machine. And it does something else that IP doesn't do, which is guarantee delivery. 
 - in addition to specifying the **port** number, it also indicates how many packets, the internet protocol, IP, has split the data into. And it orders those packets so they can be reconstructed on the receiving machine, even if they received-- in a different order than they were sent. Which can happen because IP is a connectionless protocol, and so different packets can take different paths through the system. 
+- Allows us to fragment data to be easier reasemble elsewhere
 
 Are two protocols for sending data between two computers. In the real world, we might write an address on an envelope in order to send a letter to someone, along with our own address for a letter in return.
 
@@ -83,7 +84,9 @@ Two commands supported by HTTP include GET and POST. GET allows a browser to ask
 
 cs50.harvard.edu to IP addresses. DNS is generally provided by a server nearby, with a big table in its memory, of domain names and IP addresses.
 
-Translate IP to domain names
+
+
+## Translate IP to domain names
 ```
 Host             IPv4 Address
 info.host1.net    0.0.0.0
@@ -539,3 +542,7 @@ for (let i = 0; i < 3; i++)
 
 }
 ```
+
+
+http-server create a server
+
