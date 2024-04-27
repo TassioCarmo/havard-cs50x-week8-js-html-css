@@ -2,6 +2,13 @@
 
 ## what did i learn
 
+### Summary: 
+
+- Internet: cables connecting a network
+- Router: Route information/packages to point A to B (imagine someone giving information to where you need to go) 
+- IP (Internet Protocol): Sender/Denstination address in other words Standardized how the adressed work 
+- TCP (Transmission Control Protocol) (: "guaratees" delivery and helps the servers do more than one thing (email/web/video conference etc)
+- DNS (Domain Name System): Server which answers what is the IP address for this domain name (www.x.com)
 
 ## How to ask questions
 
@@ -11,11 +18,13 @@ Don’t Take Asking for More Context to Heart
 
 
 ## internet 
-Is the network of networks of computers, or servers, communicating with one another by sending and receiving data. 
+Is the network of networks of computers, or servers, communicating with one another by sending and receiving data. (aka a cable)
 
 ## Router
 Are specialized computers, with CPUs and memory, that routes, or relays, data from one point to another. 
+
 and as the name implies, just routes data left to right, top to bottom, from one point to another.
+
 A router might have multiple options for what direction to send some data, and there are algorithms that try to figure out that direction.
 
 there's algorithms that figure out how you decide to send a packet up, down, left, or right, so to speak. But they do so by taking an input
@@ -27,6 +36,8 @@ instead assign an IP address to a router. That router or access point just in yo
 - while every device using it has the privates ,with the router's job as to sort of act as a traffic cop, allowing everybody who's connected to that router to use the same IP address to get out. 
 
 ## TCP/IP
+
+ - ports: tells what is inside the package being send , a web request an email etc
 
 - Resposible for getting it to the correct program, or the correct service on a machine. And it does something else that IP doesn't do, which is guarantee delivery. 
 - in addition to specifying the **port** number, it also indicates how many packets, the internet protocol, IP, has split the data into. And it orders those packets so they can be reconstructed on the receiving machine, even if they received-- in a different order than they were sent. Which can happen because IP is a connectionless protocol, and so different packets can take different paths through the system. 
