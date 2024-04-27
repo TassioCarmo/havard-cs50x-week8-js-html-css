@@ -1,4 +1,4 @@
-# Introduction to javascript, html and CSS
+# Introduction to javascript, HTML and CSS
 
 ## what did i learn
 
