@@ -10,7 +10,30 @@
 - **TCP (Transmission Control Protocol):** "guaratees" delivery and helps the servers do more than one thing (email/web/video conference etc) in other words governs how computers track sequences of packets to point A to B
 - **DNS (Domain Name System):** Server which answers what is the IP address for this domain name (www.x.com)
 - **DHCP (Dynamic Host Configuration Protocol):** Assigns you an ip address/router
-- **HTTP (Hypertext Transfer Protocol):** Governs how web browsers and web servers speak
+- **HTTP (Hypertext Transfer Protocol):** Governs how web browsers and web servers speak imagine a restaurant an browsers veing the costumer
+- Two different ways to request information from a server/format request
+   - GET: getting information ( cliking on links)
+   - Post Setting information (upload a image or sending credit card information)
+
+   ** Browser to server**
+  ```
+   GET / HTTP/2
+  Host: www.harvard.edu
+  ```
+ - "/" (default page)
+ - "HTTP/2" HTTPversion
+ - "Host: something" what qualified domain you are looking for 
+
+ **Server to Browser**
+ ```
+   HTTP/2 200
+  Content-Type: text/html
+```
+- "HTTP/2" HTTPversion
+- "200" status code showing the status of the request (ok)
+-   Content-Type: text/html
+
+ 
 
 ## How to ask questions
 
