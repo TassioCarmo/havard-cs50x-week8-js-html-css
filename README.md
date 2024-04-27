@@ -6,9 +6,11 @@
 
 - Internet: cables connecting a network
 - Router: Route information/packages to point A to B (imagine someone giving information to where you need to go) 
-- IP (Internet Protocol): Sender/Denstination address in other words Standardized how the adressed work 
-- TCP (Transmission Control Protocol) (: "guaratees" delivery and helps the servers do more than one thing (email/web/video conference etc)
+- IP (Internet Protocol): Sender/Denstination address in other words Standardized how the adressed work, in others words governs how computers acess each other
+- TCP (Transmission Control Protocol) (: "guaratees" delivery and helps the servers do more than one thing (email/web/video conference etc) in other words governs how computers track sequences of packets to point A to B
 - DNS (Domain Name System): Server which answers what is the IP address for this domain name (www.x.com)
+- DHCP (Dynamic Host Configuration Protocol): Assigns you an ip address/router
+- HTTP (Hypertext Transfer Protocol):Governs how web browsers and web servers speak
 
 ## How to ask questions
 
