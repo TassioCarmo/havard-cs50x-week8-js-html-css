@@ -33,7 +33,11 @@
 - "200" status code showing the status of the request (ok)
 -   Content-Type: text/html
 
- 
+- **Regular Expression** pattern the broswer should much the user input agaisnt and make sure it indeed matches
+- .+@+\.edu
+
+** Semantic tags ** 
+- divs with clarifications header footer etc
 
 ## How to ask questions
 
@@ -204,6 +208,9 @@ server with the <code>http-server</code> command, and clicking “Open in Browse
  ![image](https://user-images.githubusercontent.com/31789624/201429134-fdd1ee23-3dea-4340-be50-58b5e4665cf0.png
  
 - white space is data. And so when we're sending data from sender to receiver, from server to client, data costs money. And so getting rid of whitespace is actually a good idea if you're somebody who serves up a lot of web content. It's a bad idea if you're somebody who's learning this stuff and you want to have it nicely organized.
+
+ <code> <!DOCTYPE html>< /b></code>
+- Tells the browsers which version you are using 
  
  <code>< b>, < /b></code>
 - Text between these tags will be rendered in boldfaceby the browser.
